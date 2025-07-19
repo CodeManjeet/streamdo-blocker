@@ -53,15 +53,15 @@ app.get('/', async (req, res) => {
 
         // Block unwanted scripts
         const blockedScriptSources = [
-            '/assets/jquery/css.js',
-            '/assets/jquery/css100.js',
-            'bvtpk.com',
-            'media.dalyio.com',
-            'imasdk.googleapis.com',
-            'cz.dyedmurders.com',
-            'dyedmurders.com',
-            'tag.min.js',
-            'gpPTLMM0BJiUY6TQ'
+            // '/assets/jquery/css.js',
+            // '/assets/jquery/css100.js',
+            // 'bvtpk.com',
+            // 'media.dalyio.com',
+            // 'imasdk.googleapis.com',
+            // 'cz.dyedmurders.com',
+            // 'dyedmurders.com',
+            // 'tag.min.js',
+            // 'gpPTLMM0BJiUY6TQ'
         ];
 
         $('script').each((index, element) => {
